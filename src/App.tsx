@@ -94,7 +94,6 @@ function App() {
     <div className="app">
       <header className="app-header">
         <h1>📷 Fujifilm Recipes</h1>
-        <p>X100V Recipe Collection</p>
       </header>
 
       <div className="app-content">

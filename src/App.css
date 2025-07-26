@@ -9,6 +9,7 @@ body {
   background-color: #f9fafb;
   color: #333;
   line-height: 1.6;
+  font-size: 1.1rem; /* Slightly larger base font size */
 }
 
 .app {
@@ -377,7 +378,51 @@ body {
   }
 
   .app-header h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  .app-header p {
+    font-size: 1.1rem;
+  }
+
+  .search-input {
+    font-size: 1.1rem;
+  }
+
+  .category-menu h3 {
+    font-size: 1.2rem;
+  }
+
+  .category-name {
+    font-size: 1rem;
+  }
+
+  .category-count {
+    font-size: 0.95rem;
+  }
+
+  .favorites-section h2, .regular-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .recipe-header h3 {
+    font-size: 1.35rem;
+  }
+
+  .film-sim, .dynamic-range {
+    font-size: 0.9rem;
+  }
+
+  .setting-row {
+    font-size: 0.95rem;
+  }
+
+  .back-button {
+    font-size: 0.95rem;
+  }
+
+  .no-results p {
+    font-size: 1.2rem;
   }
 
   .recipes-list {
@@ -426,51 +471,17 @@ body {
   }
 
   .film-sim, .dynamic-range {
-    font-size: 0.75rem;
-    padding: 0.2rem 0.6rem;
+    font-size: 0.85rem;
+    padding: 0.25rem 0.75rem;
   }
 
   .setting-row {
-    font-size: 0.8rem;
-    padding: 0.4rem 0;
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
   }
 
   .category-button {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
   }
-}
-
-/* Film Simulation Filter */
-.film-simulation-filter {
-  margin-top: 2rem;
-}
-
-.film-simulation-filter h3 {
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-  color: #374151;
-  font-weight: 600;
-}
-
-.film-simulation-select {
-  width: 100%;
-  padding: 10px 12px;
-  border: 1px solid #e5e7eb;
-  border-radius: 6px;
-  font-size: 1rem;
-  background-color: white;
-  appearance: none; /* Remove default select arrow */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%236B7280%22%20d%3D%22M287%2C197.3L159.7%2C69.9c-4.8-4.8-12.5-4.8-17.3%2C0L5.4%2C197.3c-4.8%2C4.8-4.8%2C12.5%2C0%2C17.3s12.5%2C4.8%2C17.3%2C0l136.5-136.5l136.5%2C136.5c4.8%2C4.8%2C12.5%2C4.8%2C17.3%2C0S291.8%2C202.1%2C287%2C197.3z%22%2F%3E%3C%2Fsvg%3E');
-  background-repeat: no-repeat;
-  background-position: right 12px top 50%;
-  background-size: 12px auto;
-  cursor: pointer;
-}
-
-.film-simulation-select:focus {
-  outline: none;
-  border-color: #2563eb;
 }

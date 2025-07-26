@@ -232,6 +232,23 @@ async function buildRecipes() {
   }
 }
 
+const filmSimulationMap = {
+  "Acros": "Acros",
+  "AcrosG": "Acros G",
+  "AcrosR": "Acros R",
+  "AcrosYe": "Acros Ye",
+  "Astia": "Astia",
+  "BG": "Monochrome G",
+  "BR": "Monochrome R",
+  "BW": "Monochrome",
+  "Classic": "Classic Chrome",
+  "ClassicNEGA": "Classic Negative",
+  "Eterna": "Eterna",
+  "NEGAhi": "PRO Neg. Hi",
+  "Provia": "Provia",
+  "Velvia": "Velvia"
+};
+
 function parseXMLNode(xmlContent) {
   try {
     // Simple XML parsing for Node.js environment
@@ -268,7 +285,12 @@ function parseXMLNode(xmlContent) {
     fields.forEach(field => {
       const regex = new RegExp(`<${field}>([^<]*)</${field}>`);
       const match = xmlContent.match(regex);
-      recipe[field] = match ? match[1] : '';
+      let value = match ? match[1] : '';
+
+      if (field === 'FilmSimulation' && filmSimulationMap[value]) {
+        value = filmSimulationMap[value];
+      }
+      recipe[field] = value;
     });
 
     return recipe;

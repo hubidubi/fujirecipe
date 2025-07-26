@@ -7,12 +7,12 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
+      includeAssets: ['camera.svg', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
         name: 'Fujifilm Recipes',
         short_name: 'FujiRecipes',
         description: 'Fujifilm X100V Recipe Viewer',
-        theme_color: '#dc2626',
+        theme_color: '#2563eb',
         background_color: '#ffffff',
         display: 'standalone',
         icons: [
