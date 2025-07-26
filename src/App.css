@@ -459,6 +459,10 @@ body {
   .search-bar {
     margin-bottom: 1rem;
   }
+
+  .film-simulation-select {
+    font-size: 1.1rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -483,5 +487,9 @@ body {
   .category-button {
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
+  }
+
+  .film-simulation-select {
+    font-size: 1.1rem;
   }
 }
