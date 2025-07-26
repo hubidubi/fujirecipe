@@ -1,0 +1,8 @@
+# Add your favorite recipe names here, one per line
+# You can use either the display name or the full filename
+# Examples:
+# LIFE UNINTENDED
+# Soft Portrait
+# 010 - Street Style
+
+Big Negative
