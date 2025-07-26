@@ -3,10 +3,6 @@
     "name": "LIFE UNINTENDED",
     "recipes": [
       {
-        "filename": "001 --- Color.FP1",
-        "displayName": "Color"
-      },
-      {
         "filename": "002 --- Big Negative.FP1",
         "displayName": "Big Negative"
       },
@@ -30,14 +26,6 @@
       {
         "filename": "101 --- Padilla.FP1",
         "displayName": "Padilla"
-      },
-      {
-        "filename": "102 --- Kodak Style.FP1",
-        "displayName": "Kodak Style"
-      },
-      {
-        "filename": "103 --- Parr Punchy.FP1",
-        "displayName": "Parr Punchy"
       },
       {
         "filename": "104 --- 50s Noir.FP1",
