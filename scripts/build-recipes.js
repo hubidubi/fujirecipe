@@ -42,7 +42,7 @@ function parseXML(xmlContent) {
   return recipe;
 }
 
-function categorizeRecipes(files) {
+function categorizeRecipes(files, favorites) {
   const categories = [];
   const categoryMap = new Map(); // number range -> category name
 
@@ -85,13 +85,27 @@ function categorizeRecipes(files) {
   sortedFiles.forEach(filename => {
     const baseName = path.basename(filename, '.FP1');
 
-    // Skip category headers themselves
+    // Clean display name
+    let displayName = baseName;
+    displayName = displayName
+        .replace(/^-+\s*/, '')              // Remove leading dashes and spaces
+        .replace(/^\d+\s*---\s*/, '')       // Remove "304 --- " pattern
+        .replace(/^\d+\s+-+\s*/, '')        // Remove "304 -- " pattern
+        .replace(/^\d+\s+-\s*/, '')         // Remove "304 - " pattern
+        .trim();
+
+    // Check if the recipe is a favorite
+    const isFavorite = favorites.includes(displayName) ||
+                       favorites.includes(baseName) ||
+                       favorites.includes(path.basename(filename, '.FP1').replace(/^-+\s*|\d+\s*---\s*|\d+\s+-+\s*|\d+\s+-\s*|\s*-\s*\d+$/g, '').trim()); // Check original name too
+
+    // Skip category headers themselves AND favorite recipes from normal categories
     const categoryMatch = baseName.match(/^(\d+)\s*-\s*([^-]+)$/);
-    if (categoryMatch && !baseName.includes('---')) {
-      const number = parseInt(categoryMatch[1]);
-      if (number % 100 === 0) {
-        return; // Skip category headers
-      }
+    if (categoryMatch && !baseName.includes('---') && parseInt(categoryMatch[1]) % 100 === 0) {
+      return; // Skip category headers
+    }
+    if (isFavorite) {
+        return; // Skip favorite recipes from normal categories
     }
 
     // Determine which category this recipe belongs to
@@ -124,17 +138,6 @@ function categorizeRecipes(files) {
       category = { name: categoryName, recipes: [] };
       categories.push(category);
     }
-
-    // Clean display name
-    let displayName = baseName;
-
-    // Remove leading patterns and "---" signs
-    displayName = displayName
-        .replace(/^-+\s*/, '')              // Remove leading dashes and spaces
-        .replace(/^\d+\s*---\s*/, '')       // Remove "304 --- " pattern
-        .replace(/^\d+\s+-+\s*/, '')        // Remove "304 -- " pattern
-        .replace(/^\d+\s+-\s*/, '')         // Remove "304 - " pattern
-        .trim();
 
     category.recipes.push({
       filename: filename,
@@ -174,7 +177,7 @@ async function buildRecipes() {
     console.log(`Found ${files.length} recipe files`);
 
     const favorites = loadFavorites();
-    const categories = categorizeRecipes(files);
+    const categories = categorizeRecipes(files, favorites);
     const recipes = [];
 
     for (const file of files) {
