@@ -46,5 +46,8 @@ export default defineConfig({
       }
     })
   ],
-  base: process.env.NODE_ENV === 'production' ? '/fujifilm-recipes-pwa/' : '/'
+  base: process.env.NODE_ENV === 'production' ? '/fujirecipe/' : '/',
+  build: {
+    assetsDir: 'assets'
+  }
 })

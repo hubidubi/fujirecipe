@@ -2,7 +2,7 @@
   "name": "fujifilm-recipes-pwa",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://hubidubi.github.io/fujifilm-recipes/",
+  "homepage": "https://hubidubi.github.io/fujirecipe/",
   "scripts": {
     "dev": "vite",
     "build": "npm run build-recipes && tsc && vite build",

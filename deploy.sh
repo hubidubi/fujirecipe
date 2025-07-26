@@ -33,6 +33,12 @@ npm run build-recipes
 echo "🔨 Building production bundle..."
 npm run build
 
+# Get base URL from vite.config.ts
+BASE_URL=$(sed -n "s/.*base: process.env.NODE_ENV === 'production' ? '\([^']*\)'.*/\1/p" vite_config.ts)
+
+# Replace absolute paths with relative paths in index.html
+sed -i '' "s|/assets/|${BASE_URL}assets/|g" dist/index.html
+
 # Check if build was successful
 if [ ! -d "dist" ]; then
     echo "❌ Error: Build failed - dist directory not found"
@@ -41,6 +47,8 @@ fi
 
 echo "📋 Build complete! Contents of dist:"
 ls -la dist/
+ls -la dist/assets/
+cat dist/index.html
 
 # Deploy to GitHub Pages using gh-pages (install if not present)
 if ! command -v gh-pages &> /dev/null; then
@@ -48,13 +56,28 @@ if ! command -v gh-pages &> /dev/null; then
     npm install -g gh-pages
 fi
 
+if ! command -v jq &> /dev/null; then
+    echo "📦 Installing jq..."
+    if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        sudo apt-get update && sudo apt-get install -y jq
+    elif [[ "$OSTYPE" == "darwin"* ]]; then
+        brew install jq
+    else
+        echo "❌ Error: jq is not installed and cannot be automatically installed on this OS."
+        exit 1
+    fi
+fi
+
+# Get homepage URL from package.json
+APP_URL=$(jq -r '.homepage' package.json)
+
 echo "🚀 Deploying to GitHub Pages..."
 npx gh-pages -d dist
 
 echo "✅ Deployment complete!"
 echo ""
-echo "🌐 Your app should now be available at the URL specified in your package.json homepage field."
-echo "   (e.g., https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/)"
+echo "🌐 Your app should now be available at:"
+echo "   ${APP_URL}"
 echo ""
 echo "⏰ GitHub Pages may take a few minutes to update. If it doesn't appear, please check:"
 echo "   1. Your GitHub repository settings -> Pages: Ensure GitHub Pages is enabled and set to deploy from the 'gh-pages' branch."
