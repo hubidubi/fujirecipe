@@ -1,11 +1,13 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import os from 'os';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const RECIPES_SOURCE = '/Users/hubidubi/Library/Application Support/com.fujifilm.denji/X RAW STUDIO/X100V/X100V_0100';
+const currentUser = os.userInfo().username;
+const RECIPES_SOURCE = `/Users/${currentUser}/Library/Application Support/com.fujifilm.denji/X RAW STUDIO/X100V/X100V_0100`;
 const OUTPUT_DIR = path.join(__dirname, '../src/data');
 
 // Ensure output directory exists
