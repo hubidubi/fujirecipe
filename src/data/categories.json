@@ -1,22 +1,106 @@
 [
   {
+    "name": "Favorites",
+    "recipes": [
+      {
+        "filename": "002 --- Big Negative.FP1",
+        "displayName": "Big Negative",
+        "isFavorite": true
+      },
+      {
+        "filename": "101 --- Padilla.FP1",
+        "displayName": "Padilla",
+        "isFavorite": true
+      },
+      {
+        "filename": "110 --- Technicolor warm.FP1",
+        "displayName": "Technicolor warm",
+        "isFavorite": true
+      },
+      {
+        "filename": "301 --- McCurry Kodachrome.FP1",
+        "displayName": "McCurry Kodachrome",
+        "isFavorite": true
+      },
+      {
+        "filename": "302 --- Kodachrome 64.FP1",
+        "displayName": "Kodachrome 64",
+        "isFavorite": true
+      },
+      {
+        "filename": "303 --- Kodak Ultramax 400.FP1",
+        "displayName": "Kodak Ultramax 400",
+        "isFavorite": true
+      },
+      {
+        "filename": "320 --- Pacific Blues.FP1",
+        "displayName": "Pacific Blues",
+        "isFavorite": true
+      },
+      {
+        "filename": "323 --- Old Ektachrome.FP1",
+        "displayName": "Old Ektachrome",
+        "isFavorite": true
+      },
+      {
+        "filename": "330 --- Ilford HP5 Plus 400.FP1",
+        "displayName": "Ilford HP5 Plus 400",
+        "isFavorite": true
+      },
+      {
+        "filename": "330 --- Kodak T-Max 400.FP1",
+        "displayName": "Kodak T-Max 400",
+        "isFavorite": true
+      },
+      {
+        "filename": "402 --- Toulouse.FP1",
+        "displayName": "Toulouse",
+        "isFavorite": true
+      },
+      {
+        "filename": "630 --- Vinterkrom.FP1",
+        "displayName": "Vinterkrom",
+        "isFavorite": true
+      },
+      {
+        "filename": "Classic Cuban Neg.FP1",
+        "displayName": "Classic Cuban Neg",
+        "isFavorite": true
+      },
+      {
+        "filename": "Copenhagen Gatekeeper.FP1",
+        "displayName": "Copenhagen Gatekeeper",
+        "isFavorite": true
+      }
+    ]
+  },
+  {
     "name": "LIFE UNINTENDED",
     "recipes": [
       {
         "filename": "001 --- Color.FP1",
-        "displayName": "Color"
+        "displayName": "Color",
+        "isFavorite": false
+      },
+      {
+        "filename": "002 --- Big Negative.FP1",
+        "displayName": "Big Negative",
+        "isFavorite": true
       },
       {
         "filename": "003 --- Colored B&W.FP1",
-        "displayName": "Colored B&W"
+        "displayName": "Colored B&W",
+        "isFavorite": false
       },
       {
         "filename": "004 --- Tri-X Pushed.FP1",
-        "displayName": "Tri-X Pushed"
+        "displayName": "Tri-X Pushed",
+        "isFavorite": false
       },
       {
         "filename": "005 --- Nostalgic B&W.FP1",
-        "displayName": "Nostalgic B&W"
+        "displayName": "Nostalgic B&W",
+        "isFavorite": false
       }
     ]
   },
@@ -24,44 +108,64 @@
     "name": "Mullins",
     "recipes": [
       {
+        "filename": "101 --- Padilla.FP1",
+        "displayName": "Padilla",
+        "isFavorite": true
+      },
+      {
         "filename": "102 --- Kodak Style.FP1",
-        "displayName": "Kodak Style"
+        "displayName": "Kodak Style",
+        "isFavorite": false
       },
       {
         "filename": "103 --- Parr Punchy.FP1",
-        "displayName": "Parr Punchy"
+        "displayName": "Parr Punchy",
+        "isFavorite": false
       },
       {
         "filename": "104 --- 50s Noir.FP1",
-        "displayName": "50s Noir"
+        "displayName": "50s Noir",
+        "isFavorite": false
       },
       {
         "filename": "105 --- Imai.FP1",
-        "displayName": "Imai"
+        "displayName": "Imai",
+        "isFavorite": false
       },
       {
         "filename": "106 --- Newspaper.FP1",
-        "displayName": "Newspaper"
+        "displayName": "Newspaper",
+        "isFavorite": false
       },
       {
         "filename": "107 --- Meyerowitz.FP1",
-        "displayName": "Meyerowitz"
+        "displayName": "Meyerowitz",
+        "isFavorite": false
       },
       {
         "filename": "108 --- Pan F.FP1",
-        "displayName": "Pan F"
+        "displayName": "Pan F",
+        "isFavorite": false
       },
       {
         "filename": "109 --- Cinematic colour.FP1",
-        "displayName": "Cinematic colour"
+        "displayName": "Cinematic colour",
+        "isFavorite": false
+      },
+      {
+        "filename": "110 --- Technicolor warm.FP1",
+        "displayName": "Technicolor warm",
+        "isFavorite": true
       },
       {
         "filename": "111 --- Documentary Colour.FP1",
-        "displayName": "Documentary Colour"
+        "displayName": "Documentary Colour",
+        "isFavorite": false
       },
       {
         "filename": "112 --- Modern Movies.FP1",
-        "displayName": "Modern Movies"
+        "displayName": "Modern Movies",
+        "isFavorite": false
       }
     ]
   },
@@ -70,11 +174,13 @@
     "recipes": [
       {
         "filename": "201 --- Reggie'S Portra.FP1",
-        "displayName": "Reggie'S Portra"
+        "displayName": "Reggie'S Portra",
+        "isFavorite": false
       },
       {
         "filename": "202 --- Reggie's HP5.FP1",
-        "displayName": "Reggie's HP5"
+        "displayName": "Reggie's HP5",
+        "isFavorite": false
       }
     ]
   },
@@ -82,104 +188,164 @@
     "name": "FujiXWeekly",
     "recipes": [
       {
+        "filename": "301 --- McCurry Kodachrome.FP1",
+        "displayName": "McCurry Kodachrome",
+        "isFavorite": true
+      },
+      {
+        "filename": "302 --- Kodachrome 64.FP1",
+        "displayName": "Kodachrome 64",
+        "isFavorite": true
+      },
+      {
         "filename": "302 --- Kodak Portra 800.FP1",
-        "displayName": "Kodak Portra 800"
+        "displayName": "Kodak Portra 800",
+        "isFavorite": false
+      },
+      {
+        "filename": "303 --- Kodak Ultramax 400.FP1",
+        "displayName": "Kodak Ultramax 400",
+        "isFavorite": true
       },
       {
         "filename": "304 --- Kodak Portra 160.FP1",
-        "displayName": "Kodak Portra 160"
+        "displayName": "Kodak Portra 160",
+        "isFavorite": false
       },
       {
         "filename": "304 --- Kodak Portra 400 Warm.FP1",
-        "displayName": "Kodak Portra 400 Warm"
+        "displayName": "Kodak Portra 400 Warm",
+        "isFavorite": false
       },
       {
         "filename": "304 --- Kodak Portra 400 v2.FP1",
-        "displayName": "Kodak Portra 400 v2"
+        "displayName": "Kodak Portra 400 v2",
+        "isFavorite": false
       },
       {
         "filename": "304 --- Kodak Portra 400-fekete.FP1",
-        "displayName": "Kodak Portra 400-fekete"
+        "displayName": "Kodak Portra 400-fekete",
+        "isFavorite": false
       },
       {
         "filename": "304 --- Kodak Portra 400.FP1",
-        "displayName": "Kodak Portra 400"
+        "displayName": "Kodak Portra 400",
+        "isFavorite": false
       },
       {
         "filename": "305 --- Kodachrome II.FP1",
-        "displayName": "Kodachrome II"
+        "displayName": "Kodachrome II",
+        "isFavorite": false
       },
       {
         "filename": "306 --- Kodak Ektar 100.FP1",
-        "displayName": "Kodak Ektar 100"
+        "displayName": "Kodak Ektar 100",
+        "isFavorite": false
       },
       {
         "filename": "307 --- Kodak Gold 200.FP1",
-        "displayName": "Kodak Gold 200"
+        "displayName": "Kodak Gold 200",
+        "isFavorite": false
       },
       {
         "filename": "308 --- Kodak Max 800.FP1",
-        "displayName": "Kodak Max 800"
+        "displayName": "Kodak Max 800",
+        "isFavorite": false
       },
       {
         "filename": "310 --- Nostalgic Negative.FP1",
-        "displayName": "Nostalgic Negative"
+        "displayName": "Nostalgic Negative",
+        "isFavorite": false
+      },
+      {
+        "filename": "320 --- Pacific Blues.FP1",
+        "displayName": "Pacific Blues",
+        "isFavorite": true
       },
       {
         "filename": "321 --- Bright Summer.FP1",
-        "displayName": "Bright Summer"
+        "displayName": "Bright Summer",
+        "isFavorite": false
       },
       {
         "filename": "322 --- Vibrant Arizona.FP1",
-        "displayName": "Vibrant Arizona"
+        "displayName": "Vibrant Arizona",
+        "isFavorite": false
+      },
+      {
+        "filename": "323 --- Old Ektachrome.FP1",
+        "displayName": "Old Ektachrome",
+        "isFavorite": true
       },
       {
         "filename": "324 --- Superia 800.FP1",
-        "displayName": "Superia 800"
+        "displayName": "Superia 800",
+        "isFavorite": false
       },
       {
         "filename": "330 --- Agfa APX 400.FP1",
-        "displayName": "Agfa APX 400"
+        "displayName": "Agfa APX 400",
+        "isFavorite": false
       },
       {
         "filename": "330 --- Ilford HP5 Plus 400 Push-Process.FP1",
-        "displayName": "Ilford HP5 Plus 400 Push-Process"
+        "displayName": "Ilford HP5 Plus 400 Push-Process",
+        "isFavorite": false
+      },
+      {
+        "filename": "330 --- Ilford HP5 Plus 400.FP1",
+        "displayName": "Ilford HP5 Plus 400",
+        "isFavorite": true
       },
       {
         "filename": "330 --- Ilford Pan 100.FP1",
-        "displayName": "Ilford Pan 100"
+        "displayName": "Ilford Pan 100",
+        "isFavorite": false
       },
       {
         "filename": "330 --- Ilford Pan F Plus 50.FP1",
-        "displayName": "Ilford Pan F Plus 50"
+        "displayName": "Ilford Pan F Plus 50",
+        "isFavorite": false
+      },
+      {
+        "filename": "330 --- Kodak T-Max 400.FP1",
+        "displayName": "Kodak T-Max 400",
+        "isFavorite": true
       },
       {
         "filename": "330 --- Kodak Tri-X 400.FP1",
-        "displayName": "Kodak Tri-X 400"
+        "displayName": "Kodak Tri-X 400",
+        "isFavorite": false
       },
       {
         "filename": "335 --- Fujifilm Reala 100.FP1",
-        "displayName": "Fujifilm Reala 100"
+        "displayName": "Fujifilm Reala 100",
+        "isFavorite": false
       },
       {
         "filename": "335 --- Standard Provia.FP1",
-        "displayName": "Standard Provia"
+        "displayName": "Standard Provia",
+        "isFavorite": false
       },
       {
         "filename": "340 --- Jeff Davenport Night.FP1",
-        "displayName": "Jeff Davenport Night"
+        "displayName": "Jeff Davenport Night",
+        "isFavorite": false
       },
       {
         "filename": "341 --- CineStill 800T.FP1",
-        "displayName": "CineStill 800T"
+        "displayName": "CineStill 800T",
+        "isFavorite": false
       },
       {
         "filename": "350 --- Xpro '62.FP1",
-        "displayName": "Xpro '62"
+        "displayName": "Xpro '62",
+        "isFavorite": false
       },
       {
         "filename": "351 --- Yakisugi.FP1",
-        "displayName": "Yakisugi"
+        "displayName": "Yakisugi",
+        "isFavorite": false
       }
     ]
   },
@@ -188,7 +354,13 @@
     "recipes": [
       {
         "filename": "401 --- My Classic Neg..FP1",
-        "displayName": "My Classic Neg."
+        "displayName": "My Classic Neg.",
+        "isFavorite": false
+      },
+      {
+        "filename": "402 --- Toulouse.FP1",
+        "displayName": "Toulouse",
+        "isFavorite": true
       }
     ]
   },
@@ -197,11 +369,13 @@
     "recipes": [
       {
         "filename": "501 --- Summer.FP1",
-        "displayName": "Summer"
+        "displayName": "Summer",
+        "isFavorite": false
       },
       {
         "filename": "502 --- Nostalgic Negative.FP1",
-        "displayName": "Nostalgic Negative"
+        "displayName": "Nostalgic Negative",
+        "isFavorite": false
       }
     ]
   },
@@ -210,127 +384,173 @@
     "recipes": [
       {
         "filename": "601 --- Forest.FP1",
-        "displayName": "Forest"
+        "displayName": "Forest",
+        "isFavorite": false
       },
       {
         "filename": "610 --- Pastel Vibes.FP1",
-        "displayName": "Pastel Vibes"
+        "displayName": "Pastel Vibes",
+        "isFavorite": false
       },
       {
         "filename": "611 --- True Chroma.FP1",
-        "displayName": "True Chroma"
+        "displayName": "True Chroma",
+        "isFavorite": false
       },
       {
         "filename": "630 --- Dutch Velvia.FP1",
-        "displayName": "Dutch Velvia"
+        "displayName": "Dutch Velvia",
+        "isFavorite": false
       },
       {
         "filename": "630 --- Vintage Color V2.FP1",
-        "displayName": "Vintage Color V2"
+        "displayName": "Vintage Color V2",
+        "isFavorite": false
       },
       {
         "filename": "630 --- Vintage Color.FP1",
-        "displayName": "Vintage Color"
+        "displayName": "Vintage Color",
+        "isFavorite": false
       },
       {
         "filename": "630 --- Vintage Negative.FP1",
-        "displayName": "Vintage Negative"
+        "displayName": "Vintage Negative",
+        "isFavorite": false
+      },
+      {
+        "filename": "630 --- Vinterkrom.FP1",
+        "displayName": "Vinterkrom",
+        "isFavorite": true
       },
       {
         "filename": "640 --- Chrome Urban.FP1",
-        "displayName": "Chrome Urban"
+        "displayName": "Chrome Urban",
+        "isFavorite": false
       },
       {
         "filename": "640 --- Leica M10 Mono.FP1",
-        "displayName": "Leica M10 Mono"
+        "displayName": "Leica M10 Mono",
+        "isFavorite": false
       },
       {
         "filename": "644 --- Lomochrome 77.FP1",
-        "displayName": "Lomochrome 77"
+        "displayName": "Lomochrome 77",
+        "isFavorite": false
       },
       {
         "filename": "- ALAP.FP1",
-        "displayName": "ALAP"
+        "displayName": "ALAP",
+        "isFavorite": false
       },
       {
         "filename": "- Classic Neg. +3 color.FP1",
-        "displayName": "Classic Neg. +3 color"
+        "displayName": "Classic Neg. +3 color",
+        "isFavorite": false
       },
       {
         "filename": "- Classic Neg..FP1",
-        "displayName": "Classic Neg."
+        "displayName": "Classic Neg.",
+        "isFavorite": false
       },
       {
         "filename": "Acros Dark.FP1",
-        "displayName": "Acros Dark"
+        "displayName": "Acros Dark",
+        "isFavorite": false
       },
       {
         "filename": "Acros Punch.FP1",
-        "displayName": "Acros Punch"
+        "displayName": "Acros Punch",
+        "isFavorite": false
       },
       {
         "filename": "Acros day to day.FP1",
-        "displayName": "Acros day to day"
+        "displayName": "Acros day to day",
+        "isFavorite": false
       },
       {
         "filename": "Black Beauty.FP1",
-        "displayName": "Black Beauty"
+        "displayName": "Black Beauty",
+        "isFavorite": false
       },
       {
         "filename": "Black Friday.FP1",
-        "displayName": "Black Friday"
+        "displayName": "Black Friday",
+        "isFavorite": false
       },
       {
         "filename": "CLASSIC.FP1",
-        "displayName": "CLASSIC"
+        "displayName": "CLASSIC",
+        "isFavorite": false
+      },
+      {
+        "filename": "Classic Cuban Neg.FP1",
+        "displayName": "Classic Cuban Neg",
+        "isFavorite": true
+      },
+      {
+        "filename": "Copenhagen Gatekeeper.FP1",
+        "displayName": "Copenhagen Gatekeeper",
+        "isFavorite": true
       },
       {
         "filename": "Dreamy Negative.FP1",
-        "displayName": "Dreamy Negative"
+        "displayName": "Dreamy Negative",
+        "isFavorite": false
       },
       {
         "filename": "Ektachrome fejlesztés.FP1",
-        "displayName": "Ektachrome fejlesztés"
+        "displayName": "Ektachrome fejlesztés",
+        "isFavorite": false
       },
       {
         "filename": "Fuji Neopan 1600.FP1",
-        "displayName": "Fuji Neopan 1600"
+        "displayName": "Fuji Neopan 1600",
+        "isFavorite": false
       },
       {
         "filename": "Fuji Superia 100.FP1",
-        "displayName": "Fuji Superia 100"
+        "displayName": "Fuji Superia 100",
+        "isFavorite": false
       },
       {
         "filename": "Fujifilm Noir.FP1",
-        "displayName": "Fujifilm Noir"
+        "displayName": "Fujifilm Noir",
+        "isFavorite": false
       },
       {
         "filename": "Grainstorm 3200.FP1",
-        "displayName": "Grainstorm 3200"
+        "displayName": "Grainstorm 3200",
+        "isFavorite": false
       },
       {
         "filename": "KODACOLOR.FP1",
-        "displayName": "KODACOLOR"
+        "displayName": "KODACOLOR",
+        "isFavorite": false
       },
       {
         "filename": "Kodachrome Mono.FP1",
-        "displayName": "Kodachrome Mono"
+        "displayName": "Kodachrome Mono",
+        "isFavorite": false
       },
       {
         "filename": "Leica Monochrome.FP1",
-        "displayName": "Leica Monochrome"
+        "displayName": "Leica Monochrome",
+        "isFavorite": false
       },
       {
         "filename": "PRO Negative Plus.FP1",
-        "displayName": "PRO Negative Plus"
+        "displayName": "PRO Negative Plus",
+        "isFavorite": false
       },
       {
         "filename": "Urban Vibe.FP1",
-        "displayName": "Urban Vibe"
+        "displayName": "Urban Vibe",
+        "isFavorite": false
       },
       {
         "filename": "owh_ektar100.FP1",
-        "displayName": "owh_ektar100"
+        "displayName": "owh_ektar100",
+        "isFavorite": false
       }
     ]
   },
@@ -339,7 +559,8 @@
     "recipes": [
       {
         "filename": "701 - valami.FP1",
-        "displayName": "valami"
+        "displayName": "valami",
+        "isFavorite": false
       }
     ]
   }

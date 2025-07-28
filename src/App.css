@@ -252,6 +252,12 @@ body {
   gap: 0.5rem;
 }
 
+.favorite-star {
+  color: #f59e0b; /* Amber color for the star */
+  font-size: 1.2rem;
+  margin-right: 0.25rem;
+}
+
 .star {
   font-size: 1rem;
 }

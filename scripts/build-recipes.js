@@ -105,7 +105,19 @@ function categorizeRecipes(files, favorites) {
       return; // Skip category headers
     }
     if (isFavorite) {
-        return; // Skip favorite recipes from normal categories
+      let favoritesCategory = categories.find(cat => cat.name === 'Favorites');
+      if (!favoritesCategory) {
+        favoritesCategory = { name: 'Favorites', recipes: [] };
+        categories.unshift(favoritesCategory); // Add to the beginning
+      }
+      // Check if the recipe is already in the Favorites category
+      if (!favoritesCategory.recipes.some(r => r.filename === filename)) {
+        favoritesCategory.recipes.push({
+          filename: filename,
+          displayName: displayName,
+          isFavorite: true
+        });
+      }
     }
 
     // Determine which category this recipe belongs to
@@ -141,7 +153,8 @@ function categorizeRecipes(files, favorites) {
 
     category.recipes.push({
       filename: filename,
-      displayName: displayName
+      displayName: displayName,
+      isFavorite: isFavorite
     });
   });
 

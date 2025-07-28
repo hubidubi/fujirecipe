@@ -44,14 +44,17 @@ function App() {
       const uniqueFilmSimulations = Array.from(new Set(loadedRecipes.map(recipe => recipe.FilmSimulation)));
       setFilmSimulations(['All', ...uniqueFilmSimulations.sort()]);
 
-      // Create Favorites category
-      const favoriteRecipes = loadedRecipes.filter(recipe => recipe.isFavorite);
-      const favoriteCategory: Category = {
-        name: 'Favorites',
-        recipes: favoriteRecipes.map(recipe => ({ filename: recipe.filename, displayName: recipe.displayName }))
-      };
-
-      setCategories([favoriteCategory, { name: 'All', recipes: [] }, ...categoriesData]);
+      const favoritesCategory = categoriesData.find(cat => cat.name === 'Favorites');
+      if (favoritesCategory) {
+        setCategories([{ name: 'All', recipes: [] }, ...categoriesData]);
+      } else {
+        const favoriteRecipes = loadedRecipes.filter(recipe => recipe.isFavorite);
+        const newFavoritesCategory: Category = {
+          name: 'Favorites',
+          recipes: favoriteRecipes.map(recipe => ({ filename: recipe.filename, displayName: recipe.displayName, isFavorite: true }))
+        };
+        setCategories([{ name: 'All', recipes: [] }, newFavoritesCategory, ...categoriesData]);
+      }
 
       setLoading(false);
     } catch (error) {
@@ -61,10 +64,11 @@ function App() {
   };
 
   const filteredRecipes = recipes.filter(recipe => {
+    const category = categories.find(cat => cat.name === selectedCategory);
     const matchesCategory = 
       selectedCategory === 'All' ? true : 
-      selectedCategory === 'Favorites' ? recipe.isFavorite : 
-      categories.find(cat => cat.name === selectedCategory)?.recipes.some(r => r.filename === recipe.filename);
+      (selectedCategory === 'Favorites' && recipe.isFavorite) ||
+      (category && category.recipes.some(r => r.filename === recipe.filename));
 
     const matchesSearch = recipe.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       recipe.displayName.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -75,9 +79,6 @@ function App() {
 
     return matchesCategory && matchesSearch && matchesFilmSimulation;
   });
-
-  const favoriteRecipes = filteredRecipes.filter(recipe => recipe.isFavorite);
-  const regularRecipes = filteredRecipes.filter(recipe => !recipe.isFavorite);
 
   if (loading) {
     return (
@@ -125,37 +126,17 @@ function App() {
             </div>
           ) : (
             <div className="recipes-grid">
-              {favoriteRecipes.length > 0 && (
-                <div className="favorites-section">
-                  <h2>⭐ Favorites</h2>
-                  <div className="recipes-list">
-                    {favoriteRecipes.map((recipe) => (
-                      <RecipeCard
-                        key={recipe.filename}
-                        recipe={recipe}
-                        onClick={() => setSelectedRecipe(recipe)}
-                      />
-                    ))}
-                  </div>
+              {filteredRecipes.length > 0 ? (
+                <div className="recipes-list">
+                  {filteredRecipes.map((recipe) => (
+                    <RecipeCard
+                      key={recipe.filename}
+                      recipe={recipe}
+                      onClick={() => setSelectedRecipe(recipe)}
+                    />
+                  ))}
                 </div>
-              )}
-
-              {regularRecipes.length > 0 && (
-                <div className="regular-section">
-                  {favoriteRecipes.length > 0 && <h2>📄 All Recipes</h2>}
-                  <div className="recipes-list">
-                    {regularRecipes.map((recipe) => (
-                      <RecipeCard
-                        key={recipe.filename}
-                        recipe={recipe}
-                        onClick={() => setSelectedRecipe(recipe)}
-                      />
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {filteredRecipes.length === 0 && (
+              ) : (
                 <div className="no-results">
                   <p>No recipes found matching your criteria.</p>
                 </div>

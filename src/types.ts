@@ -39,5 +39,6 @@ export interface Category {
   recipes: {
     filename: string;
     displayName: string;
+    isFavorite?: boolean;
   }[];
 }

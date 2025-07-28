@@ -40,6 +40,7 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe, onClick, detailed = fal
       >
         <div className="recipe-header">
           <h3>
+            {recipe.isFavorite && <span className="favorite-star">⭐</span>}
             {recipe.displayName}
             <span
               className="film-simulation-label"
