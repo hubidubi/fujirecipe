@@ -1,5 +1,6 @@
 import React from 'react';
 import { Recipe } from '../types';
+import { getFilmLut } from '../utils/color';
 
 interface RecipeCardProps {
   recipe: Recipe;
@@ -38,11 +39,13 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe, onClick, detailed = fal
           onClick={onClick}
       >
         <div className="recipe-header">
-          <h3>
-            {recipe.isFavorite && <span className="star">⭐</span>}
-            {recipe.displayName || recipe.name}
-            <span className="film-sim">{recipe.FilmSimulation}</span>
-          </h3>
+          <h3>{recipe.displayName}</h3>
+          <span
+            className="film-simulation-label"
+            style={{ backgroundColor: getFilmLut(recipe.FilmSimulation), color: '#fff', padding: '2px 8px', borderRadius: '6px', fontWeight: 500 }}
+          >
+            {recipe.FilmSimulation}
+          </span>
         </div>
 
         <div className="recipe-content">

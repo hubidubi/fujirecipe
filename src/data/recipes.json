@@ -25,7 +25,7 @@
     "Clarity": "0",
     "filename": "001 --- Color.FP1",
     "displayName": "Color",
-    "isFavorite": true
+    "isFavorite": false
   },
   {
     "name": "Big Negative",
@@ -53,7 +53,7 @@
     "Clarity": "-3",
     "filename": "002 --- Big Negative.FP1",
     "displayName": "Big Negative",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Colored B&amp;W",
@@ -165,7 +165,7 @@
     "Clarity": "0",
     "filename": "101 --- Padilla.FP1",
     "displayName": "Padilla",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Kodak Style",
@@ -193,7 +193,7 @@
     "Clarity": "1",
     "filename": "102 --- Kodak Style.FP1",
     "displayName": "Kodak Style",
-    "isFavorite": true
+    "isFavorite": false
   },
   {
     "name": "Parr Punchy",
@@ -221,7 +221,7 @@
     "Clarity": "1",
     "filename": "103 --- Parr Punchy.FP1",
     "displayName": "Parr Punchy",
-    "isFavorite": true
+    "isFavorite": false
   },
   {
     "name": "50s Noir",
@@ -417,7 +417,7 @@
     "Clarity": "2",
     "filename": "110 --- Technicolor warm.FP1",
     "displayName": "Technicolor warm",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Documentary Colour",
@@ -501,7 +501,7 @@
     "Clarity": "0",
     "filename": "201 --- Reggie'S Portra.FP1",
     "displayName": "Reggie'S Portra",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Reggie&apos;s HP5",
@@ -557,7 +557,7 @@
     "Clarity": "0",
     "filename": "301 --- McCurry Kodachrome.FP1",
     "displayName": "McCurry Kodachrome",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Kodachrome 64",
@@ -585,7 +585,7 @@
     "Clarity": "1",
     "filename": "302 --- Kodachrome 64.FP1",
     "displayName": "Kodachrome 64",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Kodak Portra 800",
@@ -641,7 +641,7 @@
     "Clarity": "3",
     "filename": "303 --- Kodak Ultramax 400.FP1",
     "displayName": "Kodak Ultramax 400",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Kodak Portra 160",
@@ -949,7 +949,7 @@
     "Clarity": "-3",
     "filename": "320 --- Pacific Blues.FP1",
     "displayName": "Pacific Blues",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Bright Summer",
@@ -1033,7 +1033,7 @@
     "Clarity": "-4",
     "filename": "323 --- Old Ektachrome.FP1",
     "displayName": "Old Ektachrome",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Superia 800",
@@ -1145,7 +1145,7 @@
     "Clarity": "0",
     "filename": "330 --- Ilford HP5 Plus 400.FP1",
     "displayName": "Ilford HP5 Plus 400",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Ilford Pan 100",
@@ -1229,7 +1229,7 @@
     "Clarity": "3",
     "filename": "330 --- Kodak T-Max 400.FP1",
     "displayName": "Kodak T-Max 400",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Kodak Tri-X 400",
@@ -1481,7 +1481,7 @@
     "Clarity": "0",
     "filename": "402 --- Toulouse.FP1",
     "displayName": "Toulouse",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Summer",
@@ -1761,7 +1761,7 @@
     "Clarity": "-4",
     "filename": "630 --- Vinterkrom.FP1",
     "displayName": "Vinterkrom",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Chrome Urban",
@@ -1845,6 +1845,34 @@
     "Clarity": "2",
     "filename": "644 --- Lomochrome 77.FP1",
     "displayName": "Lomochrome 77",
+    "isFavorite": false
+  },
+  {
+    "name": "valami",
+    "originalLabel": "valami",
+    "device": "X100V",
+    "version": "1.12.0.0",
+    "DynamicRange": "200",
+    "FilmSimulation": "ETERNA",
+    "BlackImageTone": "",
+    "MonochromaticColor_RG": "",
+    "GrainEffect": "OFF",
+    "GrainEffectSize": "SMALL",
+    "ChromeEffect": "",
+    "ColorChromeBlue": "",
+    "WBShootCond": "",
+    "WhiteBalance": "Auto",
+    "WBShiftR": "2",
+    "WBShiftB": "2",
+    "WBColorTemp": "",
+    "HighlightTone": "2",
+    "ShadowTone": "2",
+    "Color": "2",
+    "Sharpness": "2",
+    "NoisReduction": "3",
+    "Clarity": "",
+    "filename": "701 - valami.FP1",
+    "displayName": "valami",
     "isFavorite": false
   },
   {
@@ -2125,7 +2153,7 @@
     "Clarity": "-4",
     "filename": "Classic Cuban Neg.FP1",
     "displayName": "Classic Cuban Neg",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Copenhagen Gatekeeper",
@@ -2153,7 +2181,7 @@
     "Clarity": "0",
     "filename": "Copenhagen Gatekeeper.FP1",
     "displayName": "Copenhagen Gatekeeper",
-    "isFavorite": false
+    "isFavorite": true
   },
   {
     "name": "Dreamy Negative",

@@ -3,8 +3,8 @@
     "name": "LIFE UNINTENDED",
     "recipes": [
       {
-        "filename": "002 --- Big Negative.FP1",
-        "displayName": "Big Negative"
+        "filename": "001 --- Color.FP1",
+        "displayName": "Color"
       },
       {
         "filename": "003 --- Colored B&W.FP1",
@@ -24,8 +24,12 @@
     "name": "Mullins",
     "recipes": [
       {
-        "filename": "101 --- Padilla.FP1",
-        "displayName": "Padilla"
+        "filename": "102 --- Kodak Style.FP1",
+        "displayName": "Kodak Style"
+      },
+      {
+        "filename": "103 --- Parr Punchy.FP1",
+        "displayName": "Parr Punchy"
       },
       {
         "filename": "104 --- 50s Noir.FP1",
@@ -50,10 +54,6 @@
       {
         "filename": "109 --- Cinematic colour.FP1",
         "displayName": "Cinematic colour"
-      },
-      {
-        "filename": "110 --- Technicolor warm.FP1",
-        "displayName": "Technicolor warm"
       },
       {
         "filename": "111 --- Documentary Colour.FP1",
@@ -82,20 +82,8 @@
     "name": "FujiXWeekly",
     "recipes": [
       {
-        "filename": "301 --- McCurry Kodachrome.FP1",
-        "displayName": "McCurry Kodachrome"
-      },
-      {
-        "filename": "302 --- Kodachrome 64.FP1",
-        "displayName": "Kodachrome 64"
-      },
-      {
         "filename": "302 --- Kodak Portra 800.FP1",
         "displayName": "Kodak Portra 800"
-      },
-      {
-        "filename": "303 --- Kodak Ultramax 400.FP1",
-        "displayName": "Kodak Ultramax 400"
       },
       {
         "filename": "304 --- Kodak Portra 160.FP1",
@@ -138,20 +126,12 @@
         "displayName": "Nostalgic Negative"
       },
       {
-        "filename": "320 --- Pacific Blues.FP1",
-        "displayName": "Pacific Blues"
-      },
-      {
         "filename": "321 --- Bright Summer.FP1",
         "displayName": "Bright Summer"
       },
       {
         "filename": "322 --- Vibrant Arizona.FP1",
         "displayName": "Vibrant Arizona"
-      },
-      {
-        "filename": "323 --- Old Ektachrome.FP1",
-        "displayName": "Old Ektachrome"
       },
       {
         "filename": "324 --- Superia 800.FP1",
@@ -166,20 +146,12 @@
         "displayName": "Ilford HP5 Plus 400 Push-Process"
       },
       {
-        "filename": "330 --- Ilford HP5 Plus 400.FP1",
-        "displayName": "Ilford HP5 Plus 400"
-      },
-      {
         "filename": "330 --- Ilford Pan 100.FP1",
         "displayName": "Ilford Pan 100"
       },
       {
         "filename": "330 --- Ilford Pan F Plus 50.FP1",
         "displayName": "Ilford Pan F Plus 50"
-      },
-      {
-        "filename": "330 --- Kodak T-Max 400.FP1",
-        "displayName": "Kodak T-Max 400"
       },
       {
         "filename": "330 --- Kodak Tri-X 400.FP1",
@@ -217,10 +189,6 @@
       {
         "filename": "401 --- My Classic Neg..FP1",
         "displayName": "My Classic Neg."
-      },
-      {
-        "filename": "402 --- Toulouse.FP1",
-        "displayName": "Toulouse"
       }
     ]
   },
@@ -267,10 +235,6 @@
       {
         "filename": "630 --- Vintage Negative.FP1",
         "displayName": "Vintage Negative"
-      },
-      {
-        "filename": "630 --- Vinterkrom.FP1",
-        "displayName": "Vinterkrom"
       },
       {
         "filename": "640 --- Chrome Urban.FP1",
@@ -321,14 +285,6 @@
         "displayName": "CLASSIC"
       },
       {
-        "filename": "Classic Cuban Neg.FP1",
-        "displayName": "Classic Cuban Neg"
-      },
-      {
-        "filename": "Copenhagen Gatekeeper.FP1",
-        "displayName": "Copenhagen Gatekeeper"
-      },
-      {
         "filename": "Dreamy Negative.FP1",
         "displayName": "Dreamy Negative"
       },
@@ -375,6 +331,15 @@
       {
         "filename": "owh_ektar100.FP1",
         "displayName": "owh_ektar100"
+      }
+    ]
+  },
+  {
+    "name": "teszt",
+    "recipes": [
+      {
+        "filename": "701 - valami.FP1",
+        "displayName": "valami"
       }
     ]
   }
