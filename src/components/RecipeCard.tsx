@@ -39,13 +39,15 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe, onClick, detailed = fal
           onClick={onClick}
       >
         <div className="recipe-header">
-          <h3>{recipe.displayName}</h3>
-          <span
-            className="film-simulation-label"
-            style={{ backgroundColor: getFilmLut(recipe.FilmSimulation), color: '#fff', padding: '2px 8px', borderRadius: '6px', fontWeight: 500 }}
-          >
-            {recipe.FilmSimulation}
-          </span>
+          <h3>
+            {recipe.displayName}
+            <span
+              className="film-simulation-label"
+              style={{ backgroundColor: getFilmLut(recipe.FilmSimulation), color: '#fff', padding: '2px 8px', borderRadius: '6px', fontWeight: 500, marginLeft: '8px' }}
+            >
+              {recipe.FilmSimulation}
+            </span>
+          </h3>
         </div>
 
         <div className="recipe-content">
