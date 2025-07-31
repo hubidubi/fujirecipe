@@ -1,6 +1,6 @@
 # Fujifilm Recipes PWA
 
-Modern Progressive Web App for viewing Fujifilm X100V recipe files (.FP1) on mobile and desktop devices.
+A modern Progressive Web App that lets you browse and view Fujifilm recipe files (.FP1) from X Raw Studio, with full support for desktop and mobile usage.
 
 ## Features
 
@@ -25,8 +25,8 @@ Modern Progressive Web App for viewing Fujifilm X100V recipe files (.FP1) on mob
 
 1. **Clone and setup:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/fujifilm-recipes-pwa.git
-cd fujifilm-recipes-pwa
+git clone https://github.com/YOUR_USERNAME/fujirecipe.git
+cd fujirecipe
 npm install
 ```
 
@@ -39,9 +39,9 @@ const RECIPES_SOURCE = '/Users/YOUR_USERNAME/Library/Application Support/com.fuj
 3. **Add favorites** (optional):
 Create `src/data/favorites.txt` and add recipe names (one per line):
 ```
-Soft Portrait
-Mountain Vista
-Street Style
+Kodachrome 64
+Kodak Ultramax 400
+Pacific Blues
 ```
 
 ### Development
@@ -61,8 +61,8 @@ npm run preview
 
 1. **Create GitHub repository:**
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/fujifilm-recipes-pwa.git
-git push -u origin main
+git remote add origin https://github.com/YOUR_USERNAME/fujirecipe.git
+git push -u origin master
 ```
 
 2. **Deploy to GitHub Pages:**
@@ -77,12 +77,12 @@ chmod +x deploy.sh
    - Select "gh-pages" branch as source
    - Save
 
-Your PWA will be available at: `https://YOUR_USERNAME.github.io/fujifilm-recipes-pwa/`
+Your PWA will be available at: `https://YOUR_USERNAME.github.io/fujirecipe/`
 
 ## Project Structure
 
 ```
-fujifilm-recipes-pwa/
+fujirecipe/
 ├── src/
 │   ├── components/          # React components
 │   │   ├── RecipeCard.tsx   # Recipe display component
@@ -109,6 +109,26 @@ The app automatically categorizes recipes based on filename patterns:
 - **Category Delimiters**: Files ending with "100" and containing "-" (e.g., "100 - PORTRAITS - 100.FP1")
 - **Regular Recipes**: Files following categories (e.g., "110 - Soft Portrait.FP1")
 - **Other**: Files without leading numbers go to "Other" category
+- **Naming conventions**: Recipe names show follow the format below:
+
+``` 
+100 - Mullins.FP1
+101 --- Padilla.FP1
+102 --- Kodak Style.FP1
+103 --- Parr Punchy.FP1
+104 --- 50s Noir.FP1
+105 --- Imai.FP1
+106 --- Newspaper.FP1
+107 --- Meyerowitz.FP1
+108 --- Pan F.FP1
+109 --- Cinematic colour.FP1
+110 --- Technicolor warm.FP1
+111 --- Documentary Colour.FP1
+112 --- Modern Movies.FP1
+200 - Reggie.FP1
+201 --- Reggie'S Portra.FP1
+202 --- Reggie's HP5.FP1
+```
 
 ## Customization
 
