@@ -58,7 +58,7 @@
         "isFavorite": true
       },
       {
-        "filename": "630 --- Vinterkrom.FP1",
+        "filename": "730 --- Vinterkrom.FP1",
         "displayName": "Vinterkrom",
         "isFavorite": true
       },
@@ -380,63 +380,23 @@
     ]
   },
   {
-    "name": "EGYÉB",
+    "name": "OWH",
     "recipes": [
       {
-        "filename": "601 --- Forest.FP1",
-        "displayName": "Forest",
+        "filename": "601 --- OWH overcast.FP1",
+        "displayName": "OWH overcast",
         "isFavorite": false
       },
       {
-        "filename": "610 --- Pastel Vibes.FP1",
-        "displayName": "Pastel Vibes",
+        "filename": "602 --- OWH Daylight.FP1",
+        "displayName": "OWH Daylight",
         "isFavorite": false
-      },
-      {
-        "filename": "611 --- True Chroma.FP1",
-        "displayName": "True Chroma",
-        "isFavorite": false
-      },
-      {
-        "filename": "630 --- Dutch Velvia.FP1",
-        "displayName": "Dutch Velvia",
-        "isFavorite": false
-      },
-      {
-        "filename": "630 --- Vintage Color V2.FP1",
-        "displayName": "Vintage Color V2",
-        "isFavorite": false
-      },
-      {
-        "filename": "630 --- Vintage Color.FP1",
-        "displayName": "Vintage Color",
-        "isFavorite": false
-      },
-      {
-        "filename": "630 --- Vintage Negative.FP1",
-        "displayName": "Vintage Negative",
-        "isFavorite": false
-      },
-      {
-        "filename": "630 --- Vinterkrom.FP1",
-        "displayName": "Vinterkrom",
-        "isFavorite": true
-      },
-      {
-        "filename": "640 --- Chrome Urban.FP1",
-        "displayName": "Chrome Urban",
-        "isFavorite": false
-      },
-      {
-        "filename": "640 --- Leica M10 Mono.FP1",
-        "displayName": "Leica M10 Mono",
-        "isFavorite": false
-      },
-      {
-        "filename": "644 --- Lomochrome 77.FP1",
-        "displayName": "Lomochrome 77",
-        "isFavorite": false
-      },
+      }
+    ]
+  },
+  {
+    "name": "EGYÉB",
+    "recipes": [
       {
         "filename": "- ALAP.FP1",
         "displayName": "ALAP",
@@ -560,6 +520,61 @@
       {
         "filename": "701 - valami.FP1",
         "displayName": "valami",
+        "isFavorite": false
+      },
+      {
+        "filename": "701 --- Forest.FP1",
+        "displayName": "Forest",
+        "isFavorite": false
+      },
+      {
+        "filename": "710 --- Pastel Vibes.FP1",
+        "displayName": "Pastel Vibes",
+        "isFavorite": false
+      },
+      {
+        "filename": "711 --- True Chroma.FP1",
+        "displayName": "True Chroma",
+        "isFavorite": false
+      },
+      {
+        "filename": "730 --- Dutch Velvia.FP1",
+        "displayName": "Dutch Velvia",
+        "isFavorite": false
+      },
+      {
+        "filename": "730 --- Vintage Color V2.FP1",
+        "displayName": "Vintage Color V2",
+        "isFavorite": false
+      },
+      {
+        "filename": "730 --- Vintage Color.FP1",
+        "displayName": "Vintage Color",
+        "isFavorite": false
+      },
+      {
+        "filename": "730 --- Vintage Negative.FP1",
+        "displayName": "Vintage Negative",
+        "isFavorite": false
+      },
+      {
+        "filename": "730 --- Vinterkrom.FP1",
+        "displayName": "Vinterkrom",
+        "isFavorite": true
+      },
+      {
+        "filename": "740 --- Chrome Urban.FP1",
+        "displayName": "Chrome Urban",
+        "isFavorite": false
+      },
+      {
+        "filename": "740 --- Leica M10 Mono.FP1",
+        "displayName": "Leica M10 Mono",
+        "isFavorite": false
+      },
+      {
+        "filename": "744 --- Lomochrome 77.FP1",
+        "displayName": "Lomochrome 77",
         "isFavorite": false
       }
     ]
