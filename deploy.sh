@@ -45,9 +45,9 @@ if [ ! -d "dist" ]; then
     exit 1
 fi
 
-echo "📋 Build complete! Contents of dist:"
-ls -la dist/
-ls -la dist/assets/
+echo "📋 Build complete!"
+#ls -la dist/
+#ls -la dist/assets/
 #cat dist/index.html
 
 # Deploy to GitHub Pages using gh-pages (install if not present)
