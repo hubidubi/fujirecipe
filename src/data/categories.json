@@ -13,11 +13,6 @@
         "isFavorite": true
       },
       {
-        "filename": "110 --- Technicolor warm.FP1",
-        "displayName": "Technicolor warm",
-        "isFavorite": true
-      },
-      {
         "filename": "301 --- McCurry Kodachrome.FP1",
         "displayName": "McCurry Kodachrome",
         "isFavorite": true
@@ -58,18 +53,13 @@
         "isFavorite": true
       },
       {
-        "filename": "730 --- Vinterkrom.FP1",
+        "filename": "830 --- Vinterkrom.FP1",
         "displayName": "Vinterkrom",
         "isFavorite": true
       },
       {
-        "filename": "Classic Cuban Neg.FP1",
+        "filename": "847 --- Classic Cuban Neg.FP1",
         "displayName": "Classic Cuban Neg",
-        "isFavorite": true
-      },
-      {
-        "filename": "Copenhagen Gatekeeper.FP1",
-        "displayName": "Copenhagen Gatekeeper",
         "isFavorite": true
       }
     ]
@@ -133,38 +123,58 @@
         "isFavorite": false
       },
       {
+        "filename": "106 --- Cinematic Colour.FP1",
+        "displayName": "Cinematic Colour",
+        "isFavorite": false
+      },
+      {
+        "filename": "106 --- Cinematic Monochrome.FP1",
+        "displayName": "Cinematic Monochrome",
+        "isFavorite": false
+      },
+      {
+        "filename": "106 --- Cysgod.FP1",
+        "displayName": "Cysgod",
+        "isFavorite": false
+      },
+      {
+        "filename": "106 --- Documentary Colour.FP1",
+        "displayName": "Documentary Colour",
+        "isFavorite": false
+      },
+      {
+        "filename": "106 --- Documentary Monochrome.FP1",
+        "displayName": "Documentary Monochrome",
+        "isFavorite": false
+      },
+      {
+        "filename": "106 --- Lighthouse.FP1",
+        "displayName": "Lighthouse",
+        "isFavorite": false
+      },
+      {
+        "filename": "106 --- Modern Movies.FP1",
+        "displayName": "Modern Movies",
+        "isFavorite": false
+      },
+      {
         "filename": "106 --- Newspaper.FP1",
         "displayName": "Newspaper",
         "isFavorite": false
       },
       {
-        "filename": "107 --- Meyerowitz.FP1",
-        "displayName": "Meyerowitz",
-        "isFavorite": false
-      },
-      {
-        "filename": "108 --- Pan F.FP1",
+        "filename": "107 --- Pan F.FP1",
         "displayName": "Pan F",
         "isFavorite": false
       },
       {
-        "filename": "109 --- Cinematic colour.FP1",
-        "displayName": "Cinematic colour",
+        "filename": "108 --- Pure Grit.FP1",
+        "displayName": "Pure Grit",
         "isFavorite": false
       },
       {
-        "filename": "110 --- Technicolor warm.FP1",
-        "displayName": "Technicolor warm",
-        "isFavorite": true
-      },
-      {
-        "filename": "111 --- Documentary Colour.FP1",
-        "displayName": "Documentary Colour",
-        "isFavorite": false
-      },
-      {
-        "filename": "112 --- Modern Movies.FP1",
-        "displayName": "Modern Movies",
+        "filename": "109 --- Technicolor.FP1",
+        "displayName": "Technicolor",
         "isFavorite": false
       }
     ]
@@ -253,11 +263,6 @@
         "isFavorite": false
       },
       {
-        "filename": "310 --- Nostalgic Negative.FP1",
-        "displayName": "Nostalgic Negative",
-        "isFavorite": false
-      },
-      {
         "filename": "320 --- Pacific Blues.FP1",
         "displayName": "Pacific Blues",
         "isFavorite": true
@@ -278,8 +283,8 @@
         "isFavorite": true
       },
       {
-        "filename": "324 --- Superia 800.FP1",
-        "displayName": "Superia 800",
+        "filename": "324 --- Nostalgic Negative.FP1",
+        "displayName": "Nostalgic Negative",
         "isFavorite": false
       },
       {
@@ -338,6 +343,11 @@
         "isFavorite": false
       },
       {
+        "filename": "342 --- Cine Teal.FP1",
+        "displayName": "Cine Teal",
+        "isFavorite": false
+      },
+      {
         "filename": "350 --- Xpro '62.FP1",
         "displayName": "Xpro '62",
         "isFavorite": false
@@ -365,31 +375,31 @@
     ]
   },
   {
-    "name": "D'Agostino",
+    "name": "Carl Cruz",
     "recipes": [
       {
-        "filename": "501 --- Summer.FP1",
-        "displayName": "Summer",
-        "isFavorite": false
-      },
-      {
-        "filename": "502 --- Nostalgic Negative.FP1",
-        "displayName": "Nostalgic Negative",
+        "filename": "501 --- Leica X.FP1",
+        "displayName": "Leica X",
         "isFavorite": false
       }
     ]
   },
   {
-    "name": "OWH",
+    "name": "Øyvind Nordhagen",
     "recipes": [
       {
-        "filename": "601 --- OWH overcast.FP1",
-        "displayName": "OWH overcast",
+        "filename": "601 --- OWH Overcast.FP1",
+        "displayName": "OWH Overcast",
         "isFavorite": false
       },
       {
         "filename": "602 --- OWH Daylight.FP1",
         "displayName": "OWH Daylight",
+        "isFavorite": false
+      },
+      {
+        "filename": "603 --- OWH Ektar 100.FP1",
+        "displayName": "OWH Ektar 100",
         "isFavorite": false
       }
     ]
@@ -398,13 +408,93 @@
     "name": "EGYÉB",
     "recipes": [
       {
+        "filename": "801 --- Forest.FP1",
+        "displayName": "Forest",
+        "isFavorite": false
+      },
+      {
+        "filename": "810 --- Pastel Vibes.FP1",
+        "displayName": "Pastel Vibes",
+        "isFavorite": false
+      },
+      {
+        "filename": "810 --- Summer @D'Agostino.FP1",
+        "displayName": "Summer @D'Agostino",
+        "isFavorite": false
+      },
+      {
+        "filename": "811 --- True Chroma.FP1",
+        "displayName": "True Chroma",
+        "isFavorite": false
+      },
+      {
+        "filename": "830 --- Dutch Velvia.FP1",
+        "displayName": "Dutch Velvia",
+        "isFavorite": false
+      },
+      {
+        "filename": "830 --- Vintage Color V2.FP1",
+        "displayName": "Vintage Color V2",
+        "isFavorite": false
+      },
+      {
+        "filename": "830 --- Vintage Color.FP1",
+        "displayName": "Vintage Color",
+        "isFavorite": false
+      },
+      {
+        "filename": "830 --- Vintage Negative.FP1",
+        "displayName": "Vintage Negative",
+        "isFavorite": false
+      },
+      {
+        "filename": "830 --- Vinterkrom.FP1",
+        "displayName": "Vinterkrom",
+        "isFavorite": true
+      },
+      {
+        "filename": "831 --- Nordic Soft Film.FP1",
+        "displayName": "Nordic Soft Film",
+        "isFavorite": false
+      },
+      {
+        "filename": "840 --- Chrome Urban.FP1",
+        "displayName": "Chrome Urban",
+        "isFavorite": false
+      },
+      {
+        "filename": "840 --- Leica M10 Mono.FP1",
+        "displayName": "Leica M10 Mono",
+        "isFavorite": false
+      },
+      {
+        "filename": "844 --- Lomochrome 77.FP1",
+        "displayName": "Lomochrome 77",
+        "isFavorite": false
+      },
+      {
+        "filename": "845 --- Last Summer Roll.FP1",
+        "displayName": "Last Summer Roll",
+        "isFavorite": false
+      },
+      {
+        "filename": "846 --- Havana Crayon.FP1",
+        "displayName": "Havana Crayon",
+        "isFavorite": false
+      },
+      {
+        "filename": "847 --- Classic Cuban Neg.FP1",
+        "displayName": "Classic Cuban Neg",
+        "isFavorite": true
+      },
+      {
         "filename": "- ALAP.FP1",
         "displayName": "ALAP",
         "isFavorite": false
       },
       {
-        "filename": "- Classic Neg. +3 color.FP1",
-        "displayName": "Classic Neg. +3 color",
+        "filename": "- Classic Neg. color.FP1",
+        "displayName": "Classic Neg. color",
         "isFavorite": false
       },
       {
@@ -441,16 +531,6 @@
         "filename": "CLASSIC.FP1",
         "displayName": "CLASSIC",
         "isFavorite": false
-      },
-      {
-        "filename": "Classic Cuban Neg.FP1",
-        "displayName": "Classic Cuban Neg",
-        "isFavorite": true
-      },
-      {
-        "filename": "Copenhagen Gatekeeper.FP1",
-        "displayName": "Copenhagen Gatekeeper",
-        "isFavorite": true
       },
       {
         "filename": "Dreamy Negative.FP1",
@@ -505,76 +585,6 @@
       {
         "filename": "Urban Vibe.FP1",
         "displayName": "Urban Vibe",
-        "isFavorite": false
-      },
-      {
-        "filename": "owh_ektar100.FP1",
-        "displayName": "owh_ektar100",
-        "isFavorite": false
-      }
-    ]
-  },
-  {
-    "name": "teszt",
-    "recipes": [
-      {
-        "filename": "701 - valami.FP1",
-        "displayName": "valami",
-        "isFavorite": false
-      },
-      {
-        "filename": "701 --- Forest.FP1",
-        "displayName": "Forest",
-        "isFavorite": false
-      },
-      {
-        "filename": "710 --- Pastel Vibes.FP1",
-        "displayName": "Pastel Vibes",
-        "isFavorite": false
-      },
-      {
-        "filename": "711 --- True Chroma.FP1",
-        "displayName": "True Chroma",
-        "isFavorite": false
-      },
-      {
-        "filename": "730 --- Dutch Velvia.FP1",
-        "displayName": "Dutch Velvia",
-        "isFavorite": false
-      },
-      {
-        "filename": "730 --- Vintage Color V2.FP1",
-        "displayName": "Vintage Color V2",
-        "isFavorite": false
-      },
-      {
-        "filename": "730 --- Vintage Color.FP1",
-        "displayName": "Vintage Color",
-        "isFavorite": false
-      },
-      {
-        "filename": "730 --- Vintage Negative.FP1",
-        "displayName": "Vintage Negative",
-        "isFavorite": false
-      },
-      {
-        "filename": "730 --- Vinterkrom.FP1",
-        "displayName": "Vinterkrom",
-        "isFavorite": true
-      },
-      {
-        "filename": "740 --- Chrome Urban.FP1",
-        "displayName": "Chrome Urban",
-        "isFavorite": false
-      },
-      {
-        "filename": "740 --- Leica M10 Mono.FP1",
-        "displayName": "Leica M10 Mono",
-        "isFavorite": false
-      },
-      {
-        "filename": "744 --- Lomochrome 77.FP1",
-        "displayName": "Lomochrome 77",
         "isFavorite": false
       }
     ]
