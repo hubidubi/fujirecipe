@@ -53,6 +53,11 @@
         "isFavorite": true
       },
       {
+        "filename": "501 --- Leica X.FP1",
+        "displayName": "Leica X",
+        "isFavorite": true
+      },
+      {
         "filename": "830 --- Vinterkrom.FP1",
         "displayName": "Vinterkrom",
         "isFavorite": true
@@ -380,7 +385,7 @@
       {
         "filename": "501 --- Leica X.FP1",
         "displayName": "Leica X",
-        "isFavorite": false
+        "isFavorite": true
       }
     ]
   },
