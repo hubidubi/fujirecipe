@@ -96,6 +96,11 @@
         "filename": "005 --- Nostalgic B&W.FP1",
         "displayName": "Nostalgic B&W",
         "isFavorite": false
+      },
+      {
+        "filename": "006 --- Portugese Summer.FP1",
+        "displayName": "Portugese Summer",
+        "isFavorite": false
       }
     ]
   },
@@ -193,7 +198,12 @@
         "isFavorite": false
       },
       {
-        "filename": "202 --- Reggie's HP5.FP1",
+        "filename": "202 --- Reggie's Superia.FP1",
+        "displayName": "Reggie's Superia",
+        "isFavorite": false
+      },
+      {
+        "filename": "203 --- Reggie's HP5.FP1",
         "displayName": "Reggie's HP5",
         "isFavorite": false
       }
@@ -298,6 +308,11 @@
         "isFavorite": false
       },
       {
+        "filename": "330 --- Agfa Scala.FP1",
+        "displayName": "Agfa Scala",
+        "isFavorite": false
+      },
+      {
         "filename": "330 --- Ilford HP5 Plus 400 Push-Process.FP1",
         "displayName": "Ilford HP5 Plus 400 Push-Process",
         "isFavorite": false
@@ -335,6 +350,11 @@
       {
         "filename": "335 --- Standard Provia.FP1",
         "displayName": "Standard Provia",
+        "isFavorite": false
+      },
+      {
+        "filename": "335 --- Superia 400.FP1",
+        "displayName": "Superia 400",
         "isFavorite": false
       },
       {
@@ -376,6 +396,21 @@
         "filename": "402 --- Toulouse.FP1",
         "displayName": "Toulouse",
         "isFavorite": true
+      },
+      {
+        "filename": "403 --- Superia 800.FP1",
+        "displayName": "Superia 800",
+        "isFavorite": false
+      },
+      {
+        "filename": "404 --- TDX Agfacolor 50s vibe.FP1",
+        "displayName": "TDX Agfacolor 50s vibe",
+        "isFavorite": false
+      },
+      {
+        "filename": "405 --- TDX Agfacolor 50s vibe2.FP1",
+        "displayName": "TDX Agfacolor 50s vibe2",
+        "isFavorite": false
       }
     ]
   },
