@@ -12,8 +12,8 @@ export default defineConfig({
         name: 'Fujifilm Recipes',
         short_name: 'FujiRecipes',
         description: 'Fujifilm X100V Recipe Viewer',
-        theme_color: '#2563eb',
-        background_color: '#ffffff',
+        theme_color: '#1e293b',
+        background_color: '#1e293b',
         display: 'standalone',
         icons: [
           {
