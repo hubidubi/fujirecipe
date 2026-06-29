@@ -34,10 +34,10 @@ echo "🔨 Building production bundle..."
 npm run build
 
 # Get base URL from vite.config.ts
-BASE_URL=$(sed -n "s/.*base: process.env.NODE_ENV === 'production' ? '\([^']*\)'.*/\1/p" vite_config.ts)
+BASE_URL=$(sed -n "s/.*base: process.env.NODE_ENV === 'production' ? '\([^']*\)'.*/\1/p" vite.config.ts)
 
 # Replace absolute paths with relative paths in index.html
-sed -i '' "s|/assets/|${BASE_URL}assets/|g" dist/index.html
+# sed -i '' "s|/assets/|${BASE_URL}assets/|g" dist/index.html
 
 # Check if build was successful
 if [ ! -d "dist" ]; then
