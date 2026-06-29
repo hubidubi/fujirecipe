@@ -278,6 +278,11 @@
         "isFavorite": false
       },
       {
+        "filename": "309 --- Kodak High Definition Plus 200.FP1",
+        "displayName": "Kodak High Definition Plus 200",
+        "isFavorite": false
+      },
+      {
         "filename": "320 --- Pacific Blues.FP1",
         "displayName": "Pacific Blues",
         "isFavorite": true
@@ -303,6 +308,11 @@
         "isFavorite": false
       },
       {
+        "filename": "325 --- Copenhagen Negative.FP1",
+        "displayName": "Copenhagen Negative",
+        "isFavorite": false
+      },
+      {
         "filename": "330 --- Agfa APX 400.FP1",
         "displayName": "Agfa APX 400",
         "isFavorite": false
@@ -310,6 +320,11 @@
       {
         "filename": "330 --- Agfa Scala.FP1",
         "displayName": "Agfa Scala",
+        "isFavorite": false
+      },
+      {
+        "filename": "330 --- Classic Monochrome.FP1",
+        "displayName": "Classic Monochrome",
         "isFavorite": false
       },
       {
@@ -573,13 +588,18 @@
         "isFavorite": false
       },
       {
+        "filename": "Classic Negative Custom.FP1",
+        "displayName": "Classic Negative Custom",
+        "isFavorite": false
+      },
+      {
         "filename": "Dreamy Negative.FP1",
         "displayName": "Dreamy Negative",
         "isFavorite": false
       },
       {
-        "filename": "Ektachrome fejlesztés.FP1",
-        "displayName": "Ektachrome fejlesztés",
+        "filename": "Ektachrome fejlesztés.FP1",
+        "displayName": "Ektachrome fejlesztés",
         "isFavorite": false
       },
       {
