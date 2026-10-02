@@ -58,13 +58,13 @@
         "isFavorite": true
       },
       {
-        "filename": "830 --- Vinterkrom.FP1",
-        "displayName": "Vinterkrom",
+        "filename": "801 --- Classic Cuban Neg.FP1",
+        "displayName": "Classic Cuban Neg",
         "isFavorite": true
       },
       {
-        "filename": "847 --- Classic Cuban Neg.FP1",
-        "displayName": "Classic Cuban Neg",
+        "filename": "930 --- Vinterkrom.FP1",
+        "displayName": "Vinterkrom",
         "isFavorite": true
       }
     ]
@@ -358,6 +358,11 @@
         "isFavorite": false
       },
       {
+        "filename": "335 --- Fujichrome Provia 100F.FP1",
+        "displayName": "Fujichrome Provia 100F",
+        "isFavorite": false
+      },
+      {
         "filename": "335 --- Fujifilm Reala 100.FP1",
         "displayName": "Fujifilm Reala 100",
         "isFavorite": false
@@ -460,87 +465,107 @@
     ]
   },
   {
-    "name": "EGYÉB",
+    "name": "Emanuele De Luca",
     "recipes": [
       {
-        "filename": "801 --- Forest.FP1",
-        "displayName": "Forest",
-        "isFavorite": false
-      },
-      {
-        "filename": "810 --- Pastel Vibes.FP1",
-        "displayName": "Pastel Vibes",
-        "isFavorite": false
-      },
-      {
-        "filename": "810 --- Summer @D'Agostino.FP1",
-        "displayName": "Summer @D'Agostino",
-        "isFavorite": false
-      },
-      {
-        "filename": "811 --- True Chroma.FP1",
-        "displayName": "True Chroma",
-        "isFavorite": false
-      },
-      {
-        "filename": "830 --- Dutch Velvia.FP1",
-        "displayName": "Dutch Velvia",
-        "isFavorite": false
-      },
-      {
-        "filename": "830 --- Vintage Color V2.FP1",
-        "displayName": "Vintage Color V2",
-        "isFavorite": false
-      },
-      {
-        "filename": "830 --- Vintage Color.FP1",
-        "displayName": "Vintage Color",
-        "isFavorite": false
-      },
-      {
-        "filename": "830 --- Vintage Negative.FP1",
-        "displayName": "Vintage Negative",
-        "isFavorite": false
-      },
-      {
-        "filename": "830 --- Vinterkrom.FP1",
-        "displayName": "Vinterkrom",
-        "isFavorite": true
-      },
-      {
-        "filename": "831 --- Nordic Soft Film.FP1",
-        "displayName": "Nordic Soft Film",
-        "isFavorite": false
-      },
-      {
-        "filename": "840 --- Chrome Urban.FP1",
-        "displayName": "Chrome Urban",
-        "isFavorite": false
-      },
-      {
-        "filename": "840 --- Leica M10 Mono.FP1",
-        "displayName": "Leica M10 Mono",
-        "isFavorite": false
-      },
-      {
-        "filename": "844 --- Lomochrome 77.FP1",
-        "displayName": "Lomochrome 77",
-        "isFavorite": false
-      },
-      {
-        "filename": "845 --- Last Summer Roll.FP1",
+        "filename": "701 --- Last Summer Roll.FP1",
         "displayName": "Last Summer Roll",
         "isFavorite": false
       },
       {
-        "filename": "846 --- Havana Crayon.FP1",
-        "displayName": "Havana Crayon",
+        "filename": "702 --- Luce Classica.FP1",
+        "displayName": "Luce Classica",
         "isFavorite": false
       },
       {
-        "filename": "847 --- Classic Cuban Neg.FP1",
+        "filename": "703 --- Essenza.FP1",
+        "displayName": "Essenza",
+        "isFavorite": false
+      }
+    ]
+  },
+  {
+    "name": "Osan Bilgi",
+    "recipes": [
+      {
+        "filename": "801 --- Classic Cuban Neg.FP1",
         "displayName": "Classic Cuban Neg",
         "isFavorite": true
+      }
+    ]
+  },
+  {
+    "name": "EGYÉB",
+    "recipes": [
+      {
+        "filename": "901 --- Forest.FP1",
+        "displayName": "Forest",
+        "isFavorite": false
+      },
+      {
+        "filename": "910 --- Pastel Vibes.FP1",
+        "displayName": "Pastel Vibes",
+        "isFavorite": false
+      },
+      {
+        "filename": "910 --- Summer @D'Agostino.FP1",
+        "displayName": "Summer @D'Agostino",
+        "isFavorite": false
+      },
+      {
+        "filename": "911 --- True Chroma.FP1",
+        "displayName": "True Chroma",
+        "isFavorite": false
+      },
+      {
+        "filename": "930 --- Dutch Velvia.FP1",
+        "displayName": "Dutch Velvia",
+        "isFavorite": false
+      },
+      {
+        "filename": "930 --- Vintage Color V2.FP1",
+        "displayName": "Vintage Color V2",
+        "isFavorite": false
+      },
+      {
+        "filename": "930 --- Vintage Color.FP1",
+        "displayName": "Vintage Color",
+        "isFavorite": false
+      },
+      {
+        "filename": "930 --- Vintage Negative.FP1",
+        "displayName": "Vintage Negative",
+        "isFavorite": false
+      },
+      {
+        "filename": "930 --- Vinterkrom.FP1",
+        "displayName": "Vinterkrom",
+        "isFavorite": true
+      },
+      {
+        "filename": "931 --- Nordic Soft Film.FP1",
+        "displayName": "Nordic Soft Film",
+        "isFavorite": false
+      },
+      {
+        "filename": "940 --- Chrome Urban.FP1",
+        "displayName": "Chrome Urban",
+        "isFavorite": false
+      },
+      {
+        "filename": "940 --- Leica M10 Mono.FP1",
+        "displayName": "Leica M10 Mono",
+        "isFavorite": false
+      },
+      {
+        "filename": "944 --- Lomochrome 77.FP1",
+        "displayName": "Lomochrome 77",
+        "isFavorite": false
+      },
+      {
+        "filename": "946 --- Havana Crayon.FP1",
+        "displayName": "Havana Crayon",
+        "isFavorite": false
       },
       {
         "filename": "- ALAP.FP1",

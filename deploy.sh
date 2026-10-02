@@ -13,8 +13,8 @@ if [ ! -d ".git" ]; then
     exit 1
 fi
 
-# Check if recipes source directory exists
-RECIPES_SOURCE="/Users/hubidubi/Library/Application Support/com.fujifilm.denji/X RAW STUDIO/X100V/X100V_0100"
+# Check if recipes source directory exists (same path as scripts/build-recipes.js)
+RECIPES_SOURCE="/Users/${USER}/Library/Application Support/com.fujifilm.denji/X RAW STUDIO/X100V/X100V_0100"
 if [ ! -d "$RECIPES_SOURCE" ]; then
     echo "❌ Error: Recipes source directory not found at: $RECIPES_SOURCE"
     echo "Please check the path and try again."
